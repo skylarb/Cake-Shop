@@ -43,8 +43,8 @@ A sample Cake Shop Website built with ASP.NET Core (Multi-Page Application)
 
 - **Using CLI**
     ```
-        > git clone https://github.com/ritwickdey/Cake-Shop.git
-        > cd Cake-Shop/Cake-Shop/
+        > git clone https://github.com/joelwetzel/Cake-Shop.git
+        > cd Cake-Shop/CakeShop/
         > npm install
         > dotnet restore
         > set ASPNETCORE_ENVIRONMENT=Development
