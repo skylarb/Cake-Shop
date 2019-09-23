@@ -30,8 +30,10 @@ A sample Cake Shop Website built with ASP.NET Core (Multi-Page Application)
 
 - **Using VS2017**
      ``` 
-       > git clone https://github.com/ritwickdey/Cake-Shop.git
+       > git clone https://github.com/joelwetzel/Cake-Shop.git
        > cd Cake-Shop/
+       > cd CakeShop
+       > npm update
     ```
     - Now Open the `CakeShop.sln` through `VS2017`.
     - Open `appsettings.json` & change the connection string. (But wait! you may not need to change it as this the default connection string of `SQL Server Express` that comes with `Visual Studio`).
