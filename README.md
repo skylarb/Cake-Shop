@@ -34,12 +34,13 @@ A sample Cake Shop Website built with ASP.NET Core (Multi-Page Application)
        > git clone https://github.com/joelwetzel/Cake-Shop.git
        > cd Cake-Shop/
        > cd CakeShop
+       > npm install
        > npm update
     ```
     - Now Open the `CakeShop.sln` through `Visual Studio 2019`.
-    - Open `appsettings.json` & change the connection string. (But wait! you may not need to change it as this the default connection string of `SQL Server Express` that comes with `Visual Studio`).
+    - Open `appsettings.json` & make note of the connection string and the admin credentials.
     - Hit `Ctrl+Shift+B` to build.
-    - Open `Package Manager Console` from `Tools` and enter `update-database`.
+    - Open `Package Manager Console` from `Tools` and enter `update-database`.  This will create the database within SQL Express.
     - Hit `Ctrl+F5` to run without debugging.
 
 - **Using CLI**
