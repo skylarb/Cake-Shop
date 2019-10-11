@@ -28,36 +28,24 @@ A sample Cake Shop Website built with ASP.NET Core (Multi-Page Application)
 
    > Make sure, dotnet core SDK & npm is installed in your machine.
 
-- **Using VS2017**
+- **Using VS2019**
      ``` 
+       > cd \
        > git clone https://github.com/joelwetzel/Cake-Shop.git
        > cd Cake-Shop/
        > cd CakeShop
+       > npm install
        > npm update
     ```
-    - Now Open the `CakeShop.sln` through `VS2017`.
-    - Open `appsettings.json` & change the connection string. (But wait! you may not need to change it as this the default connection string of `SQL Server Express` that comes with `Visual Studio`).
+    - Now Open the `CakeShop.sln` through `Visual Studio 2019`.
+    - Open `appsettings.json` & make note of the connection string and the admin credentials.
     - Hit `Ctrl+Shift+B` to build.
-    - Open `Package Manager Console` from `Tools` and enter `update-database`.
-    - Hit `Ctrl+F5` to run without debugging.
+    - Open `Package Manager Console` from `Tools` and enter `update-database`.  This will create the database within SQL Express.
+    - Hit `Ctrl+F5` (in Visual Studio) to run without debugging, or F5 to run with debugging.
+    - After you run it successfully for the first time, if you inspect the database using SQL Management Studio, you'll see that the admin user was added to the AspNetUsers table, and it was granted a role in the AspNetUserRoles table.
 
-- **Using CLI**
-    ```
-        > git clone https://github.com/joelwetzel/Cake-Shop.git
-        > cd Cake-Shop/CakeShop/
-        > npm install
-        > dotnet restore
-        > set ASPNETCORE_ENVIRONMENT=Development
-        > set ConnectionStrings:DefaultConnection="<YOUR CONNECTION STRING>"
-        > npm i webpack -g
-        > webpack --config webpack.config.js
-        > npm run build
-        > dotnet build 
-        > dotnet ef database update
-        > dotnet run 
-    ```
 
-## Sceenshots
+## Screenshots
 ![screenshot2](./screenshots/screenshot2.png)
 ![screenshot3](./screenshots/screenshot3.png)
 ![screenshot4](./screenshots/screenshot4.png)
