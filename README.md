@@ -45,7 +45,7 @@ A sample Cake Shop Website built with ASP.NET Core (Multi-Page Application)
     - After you run it successfully for the first time, if you inspect the database using SQL Management Studio, you'll see that the admin user was added to the AspNetUsers table, and it was granted a role in the AspNetUserRoles table.
 
 
-## Sceenshots
+## Screenshots
 ![screenshot2](./screenshots/screenshot2.png)
 ![screenshot3](./screenshots/screenshot3.png)
 ![screenshot4](./screenshots/screenshot4.png)
