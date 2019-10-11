@@ -28,14 +28,15 @@ A sample Cake Shop Website built with ASP.NET Core (Multi-Page Application)
 
    > Make sure, dotnet core SDK & npm is installed in your machine.
 
-- **Using VS2017**
+- **Using VS2019**
      ``` 
+       > cd \
        > git clone https://github.com/joelwetzel/Cake-Shop.git
        > cd Cake-Shop/
        > cd CakeShop
        > npm update
     ```
-    - Now Open the `CakeShop.sln` through `VS2017`.
+    - Now Open the `CakeShop.sln` through `Visual Studio 2019`.
     - Open `appsettings.json` & change the connection string. (But wait! you may not need to change it as this the default connection string of `SQL Server Express` that comes with `Visual Studio`).
     - Hit `Ctrl+Shift+B` to build.
     - Open `Package Manager Console` from `Tools` and enter `update-database`.
