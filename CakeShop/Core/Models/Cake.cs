@@ -20,6 +20,10 @@ namespace CakeShop.Core.Models
 
         [Required]
         [StringLength(255)]
+        public int Calories { get; set; }
+
+        [Required]
+        [StringLength(255)]
         public decimal Price { get; set; }
 
         [Required]

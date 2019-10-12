@@ -53,5 +53,10 @@ namespace CakeShop.Core.Dto
         [Display(Name = "Email Address")]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
+
+        [StringLength(255)]
+        [Display(Name = "Note")]
+        [DataType(DataType.Text)]
+        public string Note { get; set; }
     }
 }

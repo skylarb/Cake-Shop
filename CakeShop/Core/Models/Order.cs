@@ -52,6 +52,9 @@ namespace CakeShop.Core.Models
         [Required]
         public string Email { get; set; }
 
+        [StringLength(255)]
+        public string Note { get; set; }
+
         public decimal OrderTotal { get; set; }
 
         [Required]

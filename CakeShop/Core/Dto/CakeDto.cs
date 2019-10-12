@@ -21,6 +21,10 @@ namespace CakeShop.Core.Dto
         public string LongDescription { get; set; }
 
         [Required]
+        [Display(Name = "Calories")]
+        public int Calories { get; set; }
+
+        [Required]
         [Display(Name = "Price")]
         public decimal Price { get; set; }
 

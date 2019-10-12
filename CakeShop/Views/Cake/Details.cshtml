@@ -11,7 +11,7 @@
     </div>
     <div class="col-md-6">
         <h4>@Model.Name</h4>
-        <p><i>@Model.Price.ToString("c")</i></p>
+        <p><i>@Model.Price.ToString("c")</i> &nbsp;  Calories: @Model.Calories</p>
         <p>@Model.ShortDescription</p>
         <p>@Model.LongDescription</p>
         <form asp-action="AddToShoppingCart"
